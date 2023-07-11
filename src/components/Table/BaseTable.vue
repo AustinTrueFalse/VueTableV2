@@ -38,7 +38,6 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .table {
-    background-color: #fff;
     width: 100%;
     margin-bottom: 40px;
     margin-top: 15px;
@@ -51,13 +50,12 @@ const props = defineProps({
         display: grid;
         column-gap: 10px;
         align-items: center;
-        border-bottom: 2px solid #EEEFF4;
-        background: #fff;
+        border-bottom: 2px solid #dadada;
         &__name {
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            color: #999;
+            color: #2c2c2c;
             cursor: pointer;
         }
     }
