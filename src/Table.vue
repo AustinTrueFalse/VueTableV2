@@ -6,7 +6,9 @@ import TableColumn from './components/Table/TableColumn.vue';
 
 const tableHeads = ['Id', 'Action', 'Descr', 'Summa', '']
 const cardHeads = ['Discount Card', 'LastUpdate', 'Status']
-const tableSizeColumns = '120px 1fr 2fr 150px 140px'
+const tableSizeColumns = '20% 20% 20% 20%'
+
+
 
 const rows = ref([
   {
@@ -135,16 +137,20 @@ const testActive = computed(() => {
 
   * {
       box-sizing: border-box;
+      
   }
 
   .body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
+    min-width: 1010px;
+ 
   }
 
   .main__info {
     max-width: 1010px;
-    color: #2c2c2c;;
+    color: #2c2c2c;
+    
   }
 
   .main__cards {
@@ -156,6 +162,8 @@ const testActive = computed(() => {
     margin: 0 auto;
     margin-bottom: 50px;
     color: #2c2c2c;;
+
+    
   }
 
   .main__data {
@@ -167,6 +175,7 @@ const testActive = computed(() => {
     margin: 0 auto;
     margin-bottom: 50px;
     color: #2c2c2c;;
+ 
   }
 
   .status__field {

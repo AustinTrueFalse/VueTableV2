@@ -15,16 +15,16 @@
   position: relative;
   &-image {
     max-width: 100%;
-    @media screen and (max-width: 767px) {
-      max-width: 200px;
-    }
+    // @media screen and (max-width: 767px) {
+    //   max-width: 200px;
+    // }
   }
   &__title {
     margin-right: 5px;
     display: none;
-    @media screen and (max-width: 767px) {
-      display: inline-block;
-    }
+    // @media screen and (max-width: 767px) {
+    //   display: inline-block;
+    // }
   }
 }
 </style>

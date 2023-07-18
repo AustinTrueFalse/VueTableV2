@@ -28,9 +28,9 @@ const props = defineProps({
    column-gap: 10px;
    align-items: center;
    padding: 0 16px;
-   @media screen and (max-width: 767px){
-        display: block;
-   }
+//    @media screen and (max-width: 767px){
+//         display: block;
+//    }
    &:last-child {
     border-bottom: none;
    }
